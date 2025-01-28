@@ -9,9 +9,9 @@ func main() {
 			"message": "hello",
 		})
 	})
-	// r.GET("/example", func(c *gin.Context) {
+	// r.GET("/example2", func(c *gin.Context) {
 	// 	c.JSON(200, gin.H{
-	// 		"message": "hello",
+	// 		"message": "world",
 	// 	})
 	// })
 	r.Run()
